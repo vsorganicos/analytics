@@ -1,11 +1,9 @@
-#!/usr/bin/env node
-
 /**
  * Module dependencies.
  */
 module.exports.SERVER_TIMEOUT = 10000;
 
-var app = require('../app');
+var app = require('./app');
 var debug = require('debug')('node:server');
 var http = require('http');
 
